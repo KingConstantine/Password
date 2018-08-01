@@ -1,0 +1,32 @@
+<!--
+Created by Greg Boyd on July 30, 1997
+To use this teleport/password feature as I call it, all you need to do 
+is cut and paste the entire code including what you are reading.  
+The file takes what you put in the box and takes you to the page of that name.  
+It is easier to use if you include a list of the sites on your pages. 
+If you have problems getting this to work, email me at mims@frontiernet.net.net .
+-->
+
+<script Language="JavaScript">
+// Greg Boyd;   mims@frontiernet.net   URL:   http://www.frontiernet.net/~mims/
+// Password Java Script (v1.0);  
+// Please honor my hard work, if you use a variant of this in your page, then
+// please email me :) and keep the above comments in the Script.
+//
+//   This code is Copyright (c) 1997 Greg Boyd, 
+//   all rights reserved. In order to receive the right to license this 
+//   code for use on your site the original code must be copied from the
+//   Web site http://www.frontiernet.net/~mims/. License is granted touser to 
+//   reuse this code on their own Web site if and only if this entire copyright
+//   notice is included. Code written by Greg Boyd of http://www.frontiernet.net/~mims/.
+
+function password (pass)  {
+
+var password = 'slim'
+
+
+if (password != null){
+        location.href= pass + ".htm";
+}
+}
+</script>
